@@ -1,6 +1,0 @@
-{
-	"parent": "vehicle:block/fluid_pump",
-	"textures": {
-		"fluid_pump": "vehicle:block/disabled_fluid_pump"
-	}
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "vehicle:item/electric_engine",
-    "textures": {
-        "electric_engine": "vehicle:item/gold_electric_engine"
-    }
-}

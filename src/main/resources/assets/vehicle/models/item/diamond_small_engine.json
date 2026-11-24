@@ -1,6 +1,0 @@
-{
-    "parent": "vehicle:item/small_engine",
-    "textures": {
-        "small_engine": "vehicle:item/diamond_small_engine"
-    }
-}

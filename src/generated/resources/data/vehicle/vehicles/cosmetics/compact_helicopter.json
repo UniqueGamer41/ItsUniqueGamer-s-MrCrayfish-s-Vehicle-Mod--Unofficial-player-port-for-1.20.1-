@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "valid_models": {
-    "vehicle:seat": [
-      "vehicle:vehicle/helicopter/cosmetics/seat"
-    ]
-  }
-}
