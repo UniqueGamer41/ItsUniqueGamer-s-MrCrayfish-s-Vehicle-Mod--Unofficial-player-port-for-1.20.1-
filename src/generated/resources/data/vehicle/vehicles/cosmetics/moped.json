@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "valid_models": {
+    "vehicle:front_lights": [
+      "vehicle:item/moped_stock_front_light"
+    ],
+    "vehicle:seat": [
+      "vehicle:item/moped_stock_seat"
+    ],
+    "vehicle:tray": [
+      "vehicle:item/moped_stock_tray"
+    ]
+  }
+}

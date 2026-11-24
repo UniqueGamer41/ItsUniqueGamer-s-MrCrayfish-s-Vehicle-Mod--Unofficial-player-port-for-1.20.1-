@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "vehicle:iron_electric_engine"
+    },
+    "U": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "pattern": [
+    " U ",
+    "UEU",
+    " U "
+  ],
+  "result": {
+    "item": "vehicle:gold_electric_engine"
+  }
+}

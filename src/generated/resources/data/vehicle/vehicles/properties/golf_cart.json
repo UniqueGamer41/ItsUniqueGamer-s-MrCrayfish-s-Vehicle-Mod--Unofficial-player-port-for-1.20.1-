@@ -1,0 +1,152 @@
+{
+  "bodyTransform": {
+    "scale": 1.15
+  },
+  "camera": {
+    "distance": 5.0,
+    "position": [
+      0.0,
+      2.0,
+      0.0
+    ]
+  },
+  "canBePainted": true,
+  "canChangeWheels": true,
+  "displayTransform": {
+    "scale": 1.25
+  },
+  "extended": {
+    "vehicle:powered": {
+      "enginePower": 20.0,
+      "energyCapacity": 15000,
+      "engineSound": "vehicle:entity.bumper_car.engine",
+      "engineType": "vehicle:electric_motor",
+      "frontAxleOffset": 16.0,
+      "fuelFillerTransform": {
+        "rotation": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          -13.0,
+          5.5,
+          -6.0
+        ]
+      },
+      "ignitionTransform": {
+        "rotation": [
+          -64.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          0.0, 8.5, 9.0
+        ]
+      },
+      "maxEnginePitch": 1.0,
+      "rearAxleOffset": -12.5
+    }
+  },
+  "heldOffset": [
+    1.5,
+    2.5,
+    0.0
+  ],
+  "offsetToGround": -0.5,
+  "seats": [
+    {
+      "driver": true,
+      "position": [
+        5.5,
+        5.0,
+        -6.0
+      ]
+    },
+    {
+      "position": [
+        -5.5,
+        5.0,
+        -6.0
+      ]
+    },
+    {
+      "position": [
+        5.5,
+        5.0,
+        -15.0
+      ],
+      "yawOffset": 180.0
+    },
+    {
+      "position": [
+        -5.5,
+        5.0,
+        -15.0
+      ],
+      "yawOffset": 180.0
+    }
+  ],
+  "wheels": [
+    {
+      "axle": "front",
+      "offset": [
+        9.0,
+        0.0,
+        16.0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ],
+      "side": "left"
+    },
+    {
+      "axle": "front",
+      "offset": [
+        9.0,
+        0.0,
+        16.0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ],
+      "side": "right"
+    },
+    {
+      "axle": "rear",
+      "offset": [
+        9.0,
+        0.0,
+        -12.5
+      ],
+      "particles": true,
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ],
+      "side": "left"
+    },
+    {
+      "axle": "rear",
+      "offset": [
+        9.0,
+        0.0,
+        -12.5
+      ],
+      "particles": true,
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ],
+      "side": "right"
+    }
+  ]
+}

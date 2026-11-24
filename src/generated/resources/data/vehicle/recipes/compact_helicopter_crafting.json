@@ -1,0 +1,26 @@
+{
+  "type": "vehicle:workstation",
+  "vehicle": "vehicle:compact_helicopter",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 250
+    },
+    {
+      "item": "minecraft:glass",
+      "count": 40
+    },
+    {
+      "item": "minecraft:black_wool",
+      "count": 4
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 12
+    },
+    {
+      "item": "vehicle:panel",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "vehicle",
+                  "target": "BlockEntityTag.vehicle"
+                },
+                {
+                  "op": "replace",
+                  "source": "color",
+                  "target": "BlockEntityTag.color"
+                },
+                {
+                  "op": "replace",
+                  "source": "engineStack",
+                  "target": "BlockEntityTag.engineStack"
+                },
+                {
+                  "op": "replace",
+                  "source": "creative",
+                  "target": "BlockEntityTag.creative"
+                },
+                {
+                  "op": "replace",
+                  "source": "wheelStack",
+                  "target": "BlockEntityTag.wheelStack"
+                }
+              ],
+              "source": "block_entity"
+            }
+          ],
+          "name": "vehicle:vehicle_crate"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

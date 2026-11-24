@@ -1,0 +1,133 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'org.spongepowered.mixin' version '0.7-SNAPSHOT'
+
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+apply plugin: 'org.spongepowered.mixin'
+
+archivesBaseName = project.archives_base_name
+version = project.mod_version
+group = project.maven_group
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+minecraft {
+    mappings channel: project.property('mappings.channel'), version: project.property('mappings.version')
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                vehicle {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                vehicle {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'vehicle', '--all', '--output', file('src/generated/resources/')
+            mods {
+                vehicle {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, "vehicle.refmap.json"
+    config "vehicle.mixins.json"
+}
+
+repositories {
+    maven {
+        url = "https://www.cursemaven.com"
+    }
+
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.9'
+
+    //make a folder named 'libs' in the workspace directory and drop a build of my fork for posture needed to load into 1.19
+    implementation files("libs/posture-1.19.4.jar")
+    implementation files("libs/framework-1.20.1.jar")
+
+    implementation fg.deobf("curse.maven:controllable-${project.controllable_project}:${project.controllable_file}")
+    implementation fg.deobf("curse.maven:configured-${project.configured_project}:${project.configured_file}")
+    implementation fg.deobf("curse.maven:catalogue-${project.catalogue_project}:${project.catalogue_file}")
+    implementation fg.deobf("curse.maven:jei-238222:7920915")
+
+    implementation("io.github.llamalad7:mixinextras-common:0.3.5")
+    annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.5")
+
+    implementation ("org.spongepowered:mixin:0.8.5") {
+        exclude module: "asm-commons"
+        exclude module: "asm-tree"
+        exclude module: "launchwrapper"
+        exclude module: "guava"
+        exclude module: "log4j-core"
+        exclude module: "gson"
+        exclude module: "commons-io"
+    }
+    annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title": "Vehicle Mod",
+                "Specification-Vendor": "MrCrayfish",
+                "Specification-Version": "1",
+                "Implementation-Title": "Vehicle Mod",
+                "Implementation-Version": project.version,
+                "Implementation-Vendor" : "MrCrayfish",
+                "MixinConfigs" : "vehicle.mixins.json",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src/main/java"]
+        }
+        resources {
+            srcDirs = ["src/main/java", "src/main/resources", "src/generated/resources"]
+        }
+    }
+
+    // at compile time, put resources in same directories as classes
+    main.output.resourcesDir = main.java.outputDir
+}

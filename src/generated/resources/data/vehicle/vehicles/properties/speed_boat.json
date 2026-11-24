@@ -1,0 +1,40 @@
+{
+  "canBePainted": true,
+  "offsetToGround": 2.5,
+  "heldOffset": [6.0, -0.5, 0.0],
+  "trailerOffset": [0.0, -0.094, -0.75],
+  "guiTransform": {
+    "translate": [0.0, 0.0, -0.65],
+    "scale": 1.25
+  },
+  "bodyTransform": {
+    "translate": [0.0, -0.031, 0.688]
+  },
+  "seats": [
+    {
+      "driver": true
+    }
+  ],
+  "extended": {
+    "vehicle:powered": {
+      "engineType": "vehicle:large_motor",
+      "energyCapacity": 25000,
+      "fuelFillerTransform": {
+        "translate": [0.0, 10.0, -20.5],
+        "rotation": [-90.0, 0.0, 0.0],
+        "scale": 0.65
+      },
+      "ignitionTransform": {
+        "rotation": [
+          -65.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          -5.0, 8.0, 1.0
+        ]
+      }
+    }
+  }
+}

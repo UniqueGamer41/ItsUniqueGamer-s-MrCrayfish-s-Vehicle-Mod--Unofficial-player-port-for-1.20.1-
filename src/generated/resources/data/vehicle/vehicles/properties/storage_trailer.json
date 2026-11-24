@@ -1,0 +1,54 @@
+{
+  "bodyTransform": {
+    "scale": 1.1
+  },
+  "canBePainted": true,
+  "canTowTrailers": true,
+  "displayTransform": {
+    "scale": 1.35,
+    "translate": [
+      0.0,
+      0.0,
+      -0.15
+    ]
+  },
+  "extended": {
+    "vehicle:trailer": {
+      "hitchOffset": -16.0
+    }
+  },
+  "offsetToGround": -0.5,
+  "towBarOffset": [
+    0.0,
+    0.0,
+    -12.0
+  ],
+  "wheels": [
+    {
+      "offset": [
+        9.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.25,
+        1.25
+      ],
+      "side": "left"
+    },
+    {
+      "offset": [
+        9.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.25,
+        1.25
+      ],
+      "side": "right"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "camera": {
+    "distance": 5.0
+  },
+  "canBePainted": true,
+  "canChangeWheels": true,
+  "canTowTrailers": true,
+  "bodyTransform": {
+    "translate": [
+      2.5,
+      0.0,
+      1.0
+    ],
+    "scale": 1.25
+  },
+  "displayTransform": {
+    "scale": 1.5
+  },
+  "extended": {
+    "vehicle:powered": {
+      "engineSound": "vehicle:entity.atv.engine",
+      "energyCapacity": 20000.0,
+      "maxReverseSpeed": 2.4,
+      "enginePower": 15.3,
+      "engineType": "vehicle:small_motor",
+      "frontAxleOffset": 10.5,
+      "maxEnginePitch": 1.6,
+      "minEnginePitch": 0.8,
+      "rearAxleOffset": -10.5,
+      "renderEngine": false,
+      "showExhaustFumes": true,
+      "fuelFillerTransform": {
+        "rotation": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.35,
+        "translate": [
+          0.0,
+          9.0,
+          5.0
+        ]
+      },
+      "ignitionTransform": {
+        "rotation": [
+          -45.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          -5.0, 8.0, 6.0
+        ]
+      }
+    },
+    "vehicle:land": {
+      "maxReverseSpeed": 2.2
+    }
+  },
+  "heldOffset": [
+    4.0,
+    3.5,
+    0.0
+  ],
+  "offsetToGround": -3.0,
+  "seats": [
+    {
+      "driver": true,
+      "position": [
+        -1.5,
+        5.0,
+        -2.0
+      ]
+    },
+    {
+      "position": [ -1.5, 5.5, -11.0 ]
+    }
+  ],
+  "towBarOffset": [
+    0.0, 0.0, -17.0
+  ],
+  "wheels": [
+    {
+      "autoScale": true,
+      "axle": "front",
+      "offset": [
+        4.0,
+        0.0,
+        10.5
+      ],
+      "particles": true,
+      "scale": [
+        1.156,
+        1.156,
+        1.156
+      ],
+      "side": "left"
+    },
+    {
+      "autoScale": true,
+      "axle": "front",
+      "offset": [
+        4.0,
+        0.0,
+        10.5
+      ],
+      "particles": true,
+      "scale": [
+        1.156,
+        1.156,
+        1.156
+      ],
+      "side": "right"
+    },
+    {
+      "axle": "rear",
+      "offset": [
+        4.0,
+        0.0,
+        -10.5
+      ],
+      "particles": true,
+      "scale": [
+        1.156,
+        1.156,
+        1.156
+      ],
+      "side": "left"
+    },
+    {
+      "axle": "rear",
+      "offset": [
+        4.0,
+        0.0,
+        -10.5
+      ],
+      "particles": true,
+      "scale": [
+        1.156,
+        1.156,
+        1.156
+      ],
+      "side": "right"
+    }
+  ],
+  "engineSound": "vehicle:entity.atv.engine",
+  "maxReverseSpeed": 2.4
+}

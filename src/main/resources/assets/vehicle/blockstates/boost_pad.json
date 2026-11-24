@@ -1,0 +1,74 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "facing": "north"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "east"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "south"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad",
+                "y": 0
+            }
+        },
+        {
+            "when": {
+                "facing": "west"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad",
+                "y": 90
+            }
+        },
+
+        {
+            "when": {
+                "left": "true"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad_left"
+            }
+        },
+        {
+            "when": {
+                "left": "false"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad_trim_left"
+            }
+        },
+
+        {
+            "when": {
+                "right": "true"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad_right"
+            }
+        },
+        {
+            "when": {
+                "right": "false"
+            },
+            "apply": {
+                "model": "vehicle:block/boost_pad_trim_right"
+            }
+        }
+    ]
+}

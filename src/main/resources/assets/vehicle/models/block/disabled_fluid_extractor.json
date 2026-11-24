@@ -1,0 +1,6 @@
+{
+	"parent": "vehicle:block/fluid_extractor",
+	"textures": {
+		"fluid_extractor": "vehicle:block/disabled_fluid_extractor"
+	}
+}

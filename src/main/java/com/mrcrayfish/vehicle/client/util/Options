@@ -1,0 +1,16 @@
+package com.mrcrayfish.vehicle.client.util;
+
+
+public class Options {
+
+    private com.mrcrayfish.vehicle.client.util.CameraType cameraType;
+
+    this.cameraType = com.mrcrayfish.vehicle.client.util.CameraType.FIRST_PERSON;
+
+    private static CameraType getCameraType() {
+
+        return this.cameraType;
+    }
+
+
+}

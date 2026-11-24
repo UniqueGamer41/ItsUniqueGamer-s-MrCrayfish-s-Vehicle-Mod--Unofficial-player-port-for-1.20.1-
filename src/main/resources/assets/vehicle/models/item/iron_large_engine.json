@@ -1,0 +1,6 @@
+{
+	"parent": "vehicle:item/large_engine",
+	"textures": {
+		"large_engine": "vehicle:item/iron_large_engine"
+	}
+}

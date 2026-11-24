@@ -1,0 +1,140 @@
+{
+  "bodyTransform": {
+    "scale": 1.20,
+    "translate": [
+      0.0,
+      0.0,
+      5.0
+    ]
+  },
+  "camera": {
+    "distance": 5.0,
+    "position": [
+      0.0,
+      2.0,
+      0.0
+    ]
+  },
+  "canBePainted": true,
+  "canChangeWheels": true,
+  "displayTransform": {
+    "scale": 1.25
+  },
+  "extended": {
+    "vehicle:powered": {
+      "frontAxleOffset": 8.5,
+      "canLockWithKey": true,
+      "rearAxleOffset": -8.5,
+      "energyCapacity": 15000,
+      "energyConsumptionPerTick": 0.155,
+      "enginePower": 14.0,
+      "engineType": "vehicle:electric_motor",
+      "engineSound": "vehicle:entity.bumper_car.engine",
+      "fuelFillerTransform": {
+        "rotation": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          -8.0,
+          6.5,
+          -8.0
+        ]
+      },
+      "ignitionTransform": {
+        "rotation": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.3,
+        "translate": [
+          -5.0, 10.0, 2.0
+        ]
+      }
+    },
+    "vehicle:land": {
+      "maxReverseSpeed": 2.2
+    }
+  },
+
+  "heldOffset": [
+    6.0,
+    0.0,
+    0.0
+  ],
+  "offsetToGround": -1.5,
+  "seats": [
+    {
+      "driver": true,
+      "position": [
+        0.0,
+        1.0,
+        -1.0
+      ]
+    }
+  ],
+  "wheels": [
+    {
+      "axle": "front",
+      "offset": [
+        7.0,
+        0.0,
+        8.5
+      ],
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ],
+      "side": "left"
+    },
+    {
+      "axle": "front",
+      "offset": [
+        7.0,
+        0.0,
+        8.5
+      ],
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ],
+      "side": "right"
+    },
+    {
+      "axle": "rear",
+      "offset": [
+        7.0,
+        0.0,
+        -8.5
+      ],
+      "particles": true,
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ],
+      "side": "left"
+    },
+    {
+      "axle": "rear",
+      "offset": [
+        7.0,
+        0.0,
+        -8.5
+      ],
+      "particles": true,
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ],
+      "side": "right"
+    }
+  ],
+  "engineSound": "vehicle:entity.bumper_car.engine"
+}

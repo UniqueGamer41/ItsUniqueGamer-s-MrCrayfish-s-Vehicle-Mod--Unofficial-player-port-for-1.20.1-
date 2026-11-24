@@ -1,0 +1,9 @@
+{
+    "model": "vehicle:item/sports_plane_propeller",
+    "transforms": [{
+        "type": "rotate",
+        "z": {
+            "source": "vehicle:plane_propeller"
+        }
+    }]
+}

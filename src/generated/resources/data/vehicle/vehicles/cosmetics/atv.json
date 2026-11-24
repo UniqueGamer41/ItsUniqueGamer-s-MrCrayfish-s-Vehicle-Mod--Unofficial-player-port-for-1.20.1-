@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "valid_models": {
+    "vehicle:keyhole": [
+      "vehicle:item/key_hole_atv"
+    ]
+  }
+}

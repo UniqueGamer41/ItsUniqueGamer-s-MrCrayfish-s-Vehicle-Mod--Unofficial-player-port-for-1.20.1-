@@ -1,0 +1,32 @@
+{
+	"credit": "Model by MrCrayfish (https://twitter.com/MrCrayfish) using Blockbench. All Rights Reserved.",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "vehicle:item/minibus_stock_sliding_door",
+		"particle": "vehicle:item/minibus_stock_sliding_door"
+	},
+	"elements": [
+		{
+			"from": [7.5, 8, 7.5],
+			"to": [8.5, 16, 20.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 13, -30]},
+			"faces": {
+				"north": {"uv": [1, 8, 1.5, 12], "texture": "#1"},
+				"east": {"uv": [0, 0, 6.5, 4], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [1.5, 8, 2, 12], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 4, 6.5, 8], "texture": "#1"},
+				"up": {"uv": [0.5, 14.5, 0, 8], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [1, 8, 0.5, 14.5], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.5, 16, 7.5],
+			"to": [7.75, 24.0703, 20.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.25, 20, 8.3]},
+			"faces": {
+				"east": {"uv": [6.5, 0, 13, 4], "texture": "#1"},
+				"west": {"uv": [6.5, 4, 13, 8], "texture": "#1"}
+			}
+		}
+	]
+}

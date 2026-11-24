@@ -1,0 +1,42 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"textures": {
+		"1_base": "minecraft:block/white_concrete"
+	},
+	"elements": [
+		{
+			"from": [13.4, 0, 5.4],
+			"to": [14.6, 3, 6.6],
+			"rotation": {"angle": 0, "axis": "x", "origin": [14, 2.8281, 5.73582]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"east": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"south": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"west": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"up": {"uv": [0, 0, 1.2, 1.2], "texture": "#1_base"},
+				"down": {"uv": [0, 0, 1.2, 1.2], "texture": "#1_base"}
+			}
+		},
+		{
+			"from": [13.4, 2.65621, 5.4],
+			"to": [14.6, 5.65621, 6.6],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [14, 2.8281, 5.73582]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"east": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"south": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"west": {"uv": [0, 0, 1.2, 3], "texture": "#1_base"},
+				"up": {"uv": [0, 0, 1.2, 1.2], "texture": "#1_base"},
+				"down": {"uv": [0, 0, 1.2, 1.2], "texture": "#1_base"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "sports_plane_front_leg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Model by MrCrayfish (https://twitter.com/MrCrayfish) using Blockbench. All Rights Reserved.",
+	"textures": {
+		"1": "vehicle:item/fuel_port_closed",
+		"particle": "vehicle:item/fuel_port_closed"
+	},
+	"elements": [
+		{
+			"from": [-1.5, 12.5, -11.8],
+			"to": [2, 13.5, -8.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 5, -4]},
+			"faces": {
+				"north": {"uv": [7, 7, 1, 6], "rotation": 180, "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 6, 1, 12], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [13, 0, 7, 1], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [6, 0, 7, 6], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}

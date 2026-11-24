@@ -1,0 +1,67 @@
+{
+  "credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "base": "minecraft:block/white_concrete"
+  },
+  "elements": [
+    {
+      "from": [7, 7, 8],
+      "to": [9, 9, 10],
+      "faces": {
+        "north": {"uv": [0, 0, 2, 2], "texture": "#base", "tintindex": 0},
+        "east": {"uv": [0, 0, 2, 2], "texture": "#base", "tintindex": 0},
+        "south": {"uv": [0, 0, 2, 2], "texture": "#base", "tintindex": 0},
+        "west": {"uv": [0, 0, 2, 2], "texture": "#base", "tintindex": 0},
+        "up": {"uv": [0, 0, 2, 2], "texture": "#base", "tintindex": 0},
+        "down": {"uv": [0, 0, 2, 2], "texture": "#base", "tintindex": 0}
+      }
+    },
+    {
+      "from": [9, 7.2, 8.8],
+      "to": [16, 8.8, 9.2],
+      "rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 9]},
+      "faces": {
+        "north": {"uv": [1, 1, 8, 2.6], "texture": "#base"},
+        "east": {"uv": [1, 1, 1.6, 3], "texture": "#base"},
+        "south": {"uv": [0, 0, 7, 1.6], "texture": "#base"},
+        "west": {"uv": [1, 1, 1.6, 3], "texture": "#base"},
+        "up": {"uv": [1, 1, 7, 1.6], "texture": "#base"},
+        "down": {"uv": [1, 1, 7, 1.6], "texture": "#base"}
+      }
+    },
+    {
+      "from": [0, 7.2, 8.8],
+      "to": [7, 8.8, 9.2],
+      "rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 9]},
+      "faces": {
+        "north": {"uv": [0, 0, 7, 1.6], "texture": "#base"},
+        "east": {"uv": [0, 0, 0.6, 2], "texture": "#base"},
+        "south": {"uv": [0, 0, 7, 1.6], "texture": "#base"},
+        "west": {"uv": [0, 0, 0.6, 2], "texture": "#base"},
+        "up": {"uv": [0, 0, 6, 0.6], "texture": "#base"},
+        "down": {"uv": [0, 0, 6, 0.6], "texture": "#base"}
+      }
+    },
+    {
+      "from": [7.3, 7.3, 10],
+      "to": [8.7, 8.7, 10.4],
+      "faces": {
+        "east": {"uv": [0, 0, 0.4, 1.4], "texture": "#base", "tintindex": 0},
+        "south": {"uv": [0, 0, 1.4, 1.4], "texture": "#base", "tintindex": 0},
+        "west": {"uv": [0, 0, 0.4, 1.4], "texture": "#base", "tintindex": 0},
+        "up": {"uv": [0, 0, 1.4, 0.4], "texture": "#base", "tintindex": 0},
+        "down": {"uv": [0, 0, 1.4, 0.4], "texture": "#base", "tintindex": 0}
+      }
+    }
+  ],
+  "groups": [
+    0,
+    {
+      "name": "propeller_plades",
+      "origin": [9, 8, 9],
+      "color": 0,
+      "children": [1, 2]
+    },
+    3
+  ]
+}

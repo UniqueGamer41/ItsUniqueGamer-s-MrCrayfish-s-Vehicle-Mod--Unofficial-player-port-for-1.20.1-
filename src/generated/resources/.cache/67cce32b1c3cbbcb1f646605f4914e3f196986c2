@@ -1,0 +1,13 @@
+// 1.19.1	2022-07-31T13:31:26.5693482	LootTables
+0f7e8799007595e396c3345dc38fbf0a4ec00081 data/vehicle/loot_tables/blocks/fluid_extractor.json
+49e366f4438b06c4e8254ba9c6a3fa7e676fa72b data/vehicle/loot_tables/blocks/fluid_mixer.json
+3bd762f5e1de68b96c4da10b12d854f72fd64309 data/vehicle/loot_tables/blocks/fluid_pipe.json
+c319bea1dbfeebb25a6173a2fd87faaa62137fd3 data/vehicle/loot_tables/blocks/fluid_pump.json
+1729ba68584b375073e2d724d1607f8c883945a7 data/vehicle/loot_tables/blocks/fuel_drum.json
+657ebe882ad26fdb1d5525ed8e20d864e8b72727 data/vehicle/loot_tables/blocks/gas_pump.json
+b948e9d9e348cec4fa98ab7e30378ba5b947675d data/vehicle/loot_tables/blocks/industrial_fuel_drum.json
+1a9b03ae0591369e87dbed84b1760ab732ca7824 data/vehicle/loot_tables/blocks/jack.json
+2b2a4bde1a1c86393b28fa3ff9b81ef1ddeed22d data/vehicle/loot_tables/blocks/jack_head.json
+bb856090a9b2b2abd0e346eeb13a99f25e2ef4ad data/vehicle/loot_tables/blocks/traffic_cone.json
+dc0c706aa3d01bae11d72fe863e9bb1812a425f0 data/vehicle/loot_tables/blocks/vehicle_crate.json
+a8a5fc5bf6a2d79832a315f65eed3917fd6e13ac data/vehicle/loot_tables/blocks/workstation.json

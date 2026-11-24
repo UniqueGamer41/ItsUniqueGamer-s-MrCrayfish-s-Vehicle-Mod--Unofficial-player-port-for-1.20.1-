@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "valid_models": {
+    "vehicle:seat": [
+      "vehicle:item/helicopter_seat"
+    ]
+  }
+}

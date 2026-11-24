@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "valid_models": {
+    "vehicle:propeller": [
+      "vehicle:item/sports_plane_propeller"
+    ],
+    "vehicle:wingright": [
+      "vehicle:item/sports_plane_right_wing"
+    ],
+    "vehicle:wingleft": [
+      "vehicle:item/sports_plane_left_wing"
+    ],
+    "vehicle:legfront": [
+      "vehicle:item/sports_plane_front_leg"
+    ],
+    "vehicle:wheelcoverfront": [
+      "vehicle:item/sports_plane_wheel_cover"
+    ],
+    "vehicle:backrightleg": [
+      "vehicle:item/sports_plane_back_right_leg"
+    ],
+    "vehicle:wheelcoverbackright": [
+      "vehicle:item/sports_plane_wheel_cover"
+    ],
+    "vehicle:backleftleg": [
+      "vehicle:item/sports_plane_back_left_leg"
+    ],
+    "vehicle:wheelcoverbackrleft": [
+      "vehicle:item/sports_plane_wheel_cover"
+    ]
+  }
+}

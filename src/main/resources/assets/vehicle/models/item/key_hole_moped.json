@@ -1,0 +1,20 @@
+{
+	"format_version": "26.3",
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"elements": [
+		{
+			"from": [-2, 15, 10],
+			"to": [-1, 17, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 16, 10.5]},
+			"color": 1,
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#missing"},
+				"east": {"uv": [2, 0, 3, 4], "texture": "#missing"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#missing"},
+				"west": {"uv": [0, 0, 1, 4], "texture": "#missing"},
+				"up": {"uv": [0, 0, 4, 1], "texture": "#missing"},
+				"down": {"uv": [0, 2, 4, 3], "texture": "#missing"}
+			}
+		}
+	]
+}
